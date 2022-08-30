@@ -56,9 +56,9 @@ export default function HeroContainer() {
       <div className="container">
         <div className="d-flex justify-content-end pt-3">
           <div>
-            <img src="/assets/place.png" className="small-icon" /> support@mail.com
+            <img src="./assets/place.png" className="small-icon" /> support@mail.com
           </div>
-          <div>&nbsp; &nbsp; <img src="/assets/place.png" className="small-icon" /> 1234567890, 1234567890</div>
+          <div>&nbsp; &nbsp; <img src="./assets/place.png" className="small-icon" /> 1234567890, 1234567890</div>
         </div>
       </div>
       <NavBar />
