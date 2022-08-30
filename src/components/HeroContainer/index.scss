@@ -66,3 +66,15 @@ nav {
 .btn-r {
   border-radius: 0;
 }
+
+#navbarNavDropdown {
+  .nav-item {
+    padding: 10px 25px;
+  }
+  --bs-navbar-color: white;
+  --bs-navbar-active-color: white;
+}
+
+.small-icon {
+  width: 25px;
+}

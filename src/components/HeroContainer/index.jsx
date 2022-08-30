@@ -1,26 +1,41 @@
 import './index.scss'
 function NavBar() {
   return (
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><button type="button" class="btn btn-outline-secondary">Logo</button>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Hotels
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown link
+                Packages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Destination
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -29,6 +44,7 @@ function NavBar() {
               </ul>
             </li>
           </ul>
+          <button type="button" class="btn btn-outline-info">Login</button>
         </div>
       </div>
     </nav>
@@ -37,7 +53,15 @@ function NavBar() {
 export default function HeroContainer() {
   return (
     <div className="container-fuild text-center hero-container ">
-      <NavBar/>
+      <div className="container">
+        <div className="d-flex justify-content-end pt-3">
+          <div>
+            <img src="/assets/place.png" className="small-icon" /> support@mail.com
+          </div>
+          <div>&nbsp; &nbsp; <img src="/assets/place.png" className="small-icon" /> 1234567890, 1234567890</div>
+        </div>
+      </div>
+      <NavBar />
       <div className="container hero-content d-flex align-items-center justify-content-center flex-column">
         <h1 className="text-uppercase">Your journey begins</h1>
         <div className="hero-description">
