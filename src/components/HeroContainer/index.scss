@@ -1,0 +1,43 @@
+.hero-container {
+  min-height: 600px;
+  background-image: url('/assets/hero-container.jpg');
+  color: white;
+  font-weight: bold;
+}
+
+.hero-content {
+  max-width: 60%;
+  text-align: center;
+}
+
+.hero-description {
+  font-size: 24px;
+  line-height: 32px;
+} 
+
+.form-field {
+  position: relative;
+  .icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+}
+
+.form-input {
+  width: 100%;
+  padding: 20px 25px 20px 55px;
+  background-color:white;
+  border: none;
+}
+
+.separator {
+  border-right: 1px solid black !important;
+}
+
+.search {
+  background-color: #02bbcf;
+}
