@@ -6,6 +6,8 @@
 
 .package-container {
   background-image: url('/assets/hero-container.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card-img-top {
@@ -29,4 +31,8 @@
 
 .package-border-left {
   border-left: 1px solid;
+}
+
+.recommended-hotels {
+  width: 340px !important;
 }

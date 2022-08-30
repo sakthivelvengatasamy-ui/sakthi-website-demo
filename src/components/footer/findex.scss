@@ -3,7 +3,7 @@
 ====================== */
 
 /* Main Footer */
-footer .main-footer{	padding: 20px 0;	background: #fff;}
+footer .main-footer{	padding: 20px 0 0;	background: #fff;}
 footer ul{	padding-left: 0;	list-style: none;}
 
 /* Copy Right Footer */
@@ -39,7 +39,6 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 .widget.no-box{	padding: 0;	background-color: transparent;	margin-bottom: 40px;
 	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
 .widget.subscribe p{	margin-bottom: 18px;}
-.widget li a{	color: #fff;}
 .widget li a:hover{	color: #aaa;text-decoration: none;}
 .widget-title {margin-bottom: 20px;}
 .widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
@@ -128,6 +127,13 @@ input.submitbutton.ripplelink {
     font-weight: normal;
     text-decoration: inherit;
     margin-left: 5px;
-    color: #ffffff;
 }
 
+
+
+.contact-us {
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+}

@@ -9,9 +9,6 @@
   height: 320px;
 }
 
-.card-img-top {
-  height: 100px;
-}
 
 .color1{
   color: white;
@@ -24,7 +21,7 @@
   }
 }
 .customd{
-  height: 60px;
+  height: 50px;
     width: 111px;
     padding: 14px;
     border-radius: 0;
@@ -33,7 +30,7 @@
 }
 customi{
   width: 50%;
-    align-content: center;
+  align-content: center;
 }
 .package-border-top {
   border-top: 1px solid;
@@ -45,4 +42,15 @@ customi{
 
 .image-align-fit {
   object-fit: cover;
+}
+.custom-input {
+  background-color: white !important;
+  height: 50px;
+  border-radius: 0 !important;
+  border: none !important;
+  text-align: left !important;
+}
+
+.subscriber-nested-container {
+  max-width: 640px;
 }

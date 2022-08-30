@@ -4,7 +4,7 @@
 
 
 .card {
-  width: 380px;
+  max-width: 340px;
   height: 400px;
   padding: 25px;
   text-align: center;
@@ -20,9 +20,9 @@
   }
 }
 
-
 .card-list {
-  
+  max-width: 90%;
+  margin: 0 auto !important;
 }
 
 

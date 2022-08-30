@@ -8,6 +8,7 @@
 .hero-content {
   max-width: 60%;
   text-align: center;
+  padding: 100px 0;
 }
 
 .hero-description {
@@ -40,4 +41,28 @@
 
 .search {
   background-color: #02bbcf;
+  
+}
+.search1{
+      width: 60px;
+      padding: 10px;
+}
+
+
+nav {
+  transition-duration: 0.5s;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  transition: color .25s ease-in-out, background-color .25s ease-in-out, border-color .25s ease-in-out;
+}
+
+.nav-link {
+  color: #000;
+  transition: color .25s ease-in-out, background-color .25s ease-in-out, border-color .25s ease-in-out;
+}
+
+.btn-r {
+  border-radius: 0;
 }

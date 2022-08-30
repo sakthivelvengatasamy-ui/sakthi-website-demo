@@ -5,10 +5,11 @@ import Destinations from './components/Destinations';
 import Packages from './components/Packages';
 import RecommendedHotels from './components/RecommendedHotels';
 import HappyTravellers from './components/HappyTravellers';
-import './App.scss'
-import
 import Subscribe from './components/Subscribe';
 import StickyFooter from './components/footer';
+
+import './App.scss'
+
 
 function App() {
   const [count, setCount] = useState(0)
