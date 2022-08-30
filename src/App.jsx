@@ -6,6 +6,9 @@ import Packages from './components/Packages';
 import RecommendedHotels from './components/RecommendedHotels';
 import HappyTravellers from './components/HappyTravellers';
 import './App.scss'
+import
+import Subscribe from './components/Subscribe';
+import StickyFooter from './components/footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +21,8 @@ function App() {
       <Packages/>
       <RecommendedHotels />
       <HappyTravellers/>
+      <Subscribe/>
+      <StickyFooter/>
     </div>
   )
 }
