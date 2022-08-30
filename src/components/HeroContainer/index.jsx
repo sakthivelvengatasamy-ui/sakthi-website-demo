@@ -71,19 +71,19 @@ export default function HeroContainer() {
           <div className="row g-0 text-center">
 
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 form-field separator">
-              <img src="/assets/place.png" className="icon" />
+              <img src="./assets/place.png" className="icon" />
               <input className="form-input" placeholder="Where From" />
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 form-field separator">
-              <img src="/assets/place.png" className="icon" />
+              <img src="./assets/place.png" className="icon" />
               <input className="form-input" placeholder="Where From" />
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 form-field separator">
-              <img src="/assets/place.png" className="icon" />
+              <img src="./assets/place.png" className="icon" />
               <input className="form-input" placeholder="Where From" />
             </div>
             <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 form-field separator">
-              <img src="/assets/place.png" className="icon" />
+              <img src="./assets/place.png" className="icon" />
               <input className="form-input" placeholder="Where From" />
             </div>
             <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12 search d-flex justify-content-center align-content-center">

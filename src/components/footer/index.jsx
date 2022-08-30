@@ -41,9 +41,9 @@ export default function StickyFooter() {
               <div class="widget no-box">
                 <h5 class="widget-title mb-3">REACH US</h5>
                 <div class="d-flex contact-us flex-column">
-                  <div className="pb-3"><img src="/assets/place.png" className="icon" />&nbsp;&nbsp;Top Leaders</div>
-                  <div className="pb-3"><img src="/assets/place.png" className="icon" />&nbsp;&nbsp;Top Leaders</div>
-                  <div className="pb-3"><img src="/assets/place.png" className="icon" />&nbsp;&nbsp;Top Leaders</div>
+                  <div className="pb-3"><img src="./assets/place.png" className="icon" />&nbsp;&nbsp;Top Leaders</div>
+                  <div className="pb-3"><img src="./assets/place.png" className="icon" />&nbsp;&nbsp;Top Leaders</div>
+                  <div className="pb-3"><img src="./assets/place.png" className="icon" />&nbsp;&nbsp;Top Leaders</div>
                 </div>
                 <div>
                   <a href="#"> <i class="fa fa-facebook"> </i> </a>
