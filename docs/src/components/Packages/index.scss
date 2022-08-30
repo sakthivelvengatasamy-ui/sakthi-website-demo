@@ -1,0 +1,38 @@
+.card.bg-image-dubai {
+  background-image: url(/assets/cities/dubai.jpg);
+  height: 450px;
+  background-size: cover;
+}
+
+.package-container {
+  background-image: url('/assets/hero-container.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.package-dubai-bg {
+  background-image: url(/assets/cities/dubai.jpg);
+}
+
+.package-list {
+  .card {
+    padding: unset;
+    text-align: left;
+  }
+}
+
+.package-border-top {
+  border-top: 1px solid;
+}
+
+.package-border-left {
+  border-left: 1px solid;
+}
+
+.image-align-fit {
+  object-fit: cover;
+}
